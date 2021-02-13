@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 header{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: white;
     background-color: black;
@@ -13,6 +15,7 @@ header{
 
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 3rem;
     
